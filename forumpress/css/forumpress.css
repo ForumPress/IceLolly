@@ -141,11 +141,12 @@
 
 .fp_home_crumb a {
 	background: #c8d2d8;
+	height: 40px;
 	line-height: 40px;
     padding: 0 15px;
     border-radius: 4px 0 0 4px;
-    display: inline-block;
-    vertical-align: middle;
+    display:table-cell;
+    vertical-align: middle !important;
     color: #8c8c8c;
 }
 
@@ -157,11 +158,13 @@
 	vertical-align: middle !important;
 	background: rgba(0,0,0,0);
     border-radius: 0;
+    height: 40px;
     line-height: 40px;
     margin: 0;
     overflow: hidden;
     padding: 0 20px 0 0;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .fpcrumbs ul li:before {
@@ -181,8 +184,8 @@
 }
 
 .fpforumcontainer {
-	margin-bottom: 30px;
-	background-color: #E4E9EB;
+	padding-bottom: 30px;
+	background-color: #E4E9EB
 }
 
 .fpcategory {
